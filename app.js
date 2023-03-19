@@ -1,5 +1,5 @@
 async function fetchCards() {
-  const response = await fetch('cards.json');
+  const response = await fetch('https://zabadoohp.github.io/nostalgixpacksim/cards.json');
   const cards = await response.json();
   return cards;
 }

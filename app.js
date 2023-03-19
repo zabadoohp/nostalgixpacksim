@@ -1,5 +1,5 @@
 async function fetchCards() {
-  const response = await fetch('http://127.0.0.1:8080/cards.json');
+  const response = await fetch('cards.json');
   const cards = await response.json();
   return cards;
 }
